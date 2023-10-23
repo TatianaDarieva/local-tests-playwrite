@@ -4,6 +4,7 @@
   "description": "Playwright end-to-end tests for localcoding.us",
   "scripts": {
     "test": "npx playwright test",
+    "test:debug": "npx playwright test --headed",
     "report": "playwright show-report"
   },
   "author": "Tatiana Darieva",
